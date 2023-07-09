@@ -1,0 +1,14 @@
+{
+	"profiles": {
+		"IIS Express": {
+			"commandName": "IISExpress",
+			"launchBrowser": true,
+			"launchUrl": "api/values",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			},
+			"applicationUrl": "https://localhost:44316", // Modify the port numbers as needed
+			"sslPort": 44300 // Specify the SSL port number
+		}
+	}
+}
